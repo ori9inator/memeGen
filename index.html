@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="MemeGen.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to Mutiny's Meme Generator</h1>
+    <div class="generator">   
+        <div>         
+           <input type="file" id="imageFileInput"/>
+           <label for="imageFileInput">Add Image</label> 
+        </div>
+        <div>
+           <input type="text" id="topTextInput" placeholder="Enter Top Text">
+        </div>
+        <div>
+           <input type="text" id="bottomTextInput" placeholder="Enter Bottom Text">
+        </div>
+        <div>
+           <button id="generate">Generate!</button> 
+        </div>
+        <div>   
+           <button id="reset">Reset</button>
+        </div>
+        <!-- <canvas id="meme"></canvas> -->
+        <canvas id="meme" width="800px" height="800px"></canvas>
+    </div>
+
+    <script src="MemeGen2.js"></script>
+</body>
+</html>
+
+<!-- hello -->
